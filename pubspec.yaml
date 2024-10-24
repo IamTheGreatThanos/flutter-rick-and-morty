@@ -1,0 +1,46 @@
+name: rickandmorty
+description: "Rick and Morty app built with Flutter using clean architecture"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core
+  cupertino_icons: ^1.0.6
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  get_it: ^8.0.1
+
+  # Navigation
+  go_router: ^14.3.0
+
+  # Network & API
+  dio: ^5.7.0
+  retrofit: ^4.4.1
+  json_annotation: ^4.9.0
+  talker_dio_logger: ^4.4.1
+
+  # UI Components
+  flutter_svg: ^2.0.10
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
+  retrofit_generator: '>=8.0.0 <10.0.0'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
